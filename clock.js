@@ -260,10 +260,6 @@ function Clock() {
 	
 	this._stop = function(){
 		return getTimerID();
-	}, 
-	
-	function getTimerID(){
-		console.log(timer[id]);
 	}
 }
 			
