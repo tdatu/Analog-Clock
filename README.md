@@ -16,5 +16,9 @@ An SVG Analog clock.
 		time will default to Local time.
 		5) Global timer[] key/pair array holds the timer id for each clock. Key is the ID of element.
 	           If you want to stop one clock, use clearInterval(timer['#element_id']);
+	           
 	Clock Description:
 		Between 6 am - 5pm, clock color is orange, otherwise gray. The color follows the sun. 
+		
+	Example:
+	http://webworker.dlinkddns.com/time/
