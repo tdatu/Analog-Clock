@@ -256,10 +256,6 @@ function Clock() {
 	
 	this._start = function(obj){
 		timer[id] = setInterval(function(){obj.updateHands()},1000);
-	},
-	
-	this._stop = function(){
-		return getTimerID();
 	}
 }
 			
