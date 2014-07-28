@@ -14,7 +14,7 @@ An SVG Analog clock.
 		3) Call new Clock() to instantiate object
 		4) Call method generate("#clock","Manila") <--- City is optional, if no city 
 		time will default to Local time.
-		5) Global timer[] key/pair array holds the timer id for each clock. Key is the ID of element.
+		5) Global timer[] key/value pair array holds the timer id for each clock. Key is the ID of element.
 	           If you want to stop one clock, use clearInterval(timer['#element_id']);
 	           
 	Clock Description:
